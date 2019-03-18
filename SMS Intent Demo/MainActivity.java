@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void SendSMSCode(View v)
     {
-        String phoneNumber = "+919820257599";
+        String phoneNumber = "MOBILE_NUMBER_HERE";
         String message = "Hello World! From Android Intent";
 
         Uri uri = Uri.parse("smsto:"+ phoneNumber);
